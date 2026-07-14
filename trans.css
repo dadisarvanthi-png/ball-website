@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.container {
+  width:500px;
+  height:500px;
+  background-color: #f0f0f0;
+  text-align:center;
+  margin-top:200px;
+  margin-bottom:200px;
+  margin-left:500px;
+  margin-right:200px;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  background-color: #ff5757;
+  border-radius: 50px;
+  transform: translate(200px, 350px);
+  animation-name: bounce;
+  animation: bounce 2s 3s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate(200px, 350px);
+  }
+
+  100% {
+    transform: translate(200px, 350px);
+    transform: translate(200px, 0px);
+  }
+}
