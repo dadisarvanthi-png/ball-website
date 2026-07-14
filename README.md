@@ -73,7 +73,7 @@ Add your deployed website link here.
 Example:
 
 ```
-https://your-project.netlify.app
+(https://ball-website-dvna0berq-html9.vercel.app)
 ```
 
 ---
